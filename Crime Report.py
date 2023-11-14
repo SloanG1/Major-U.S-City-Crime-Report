@@ -12,5 +12,4 @@ with open('ucr_crime_1975_2015.csv', 'r') as Original:
                 pass
             else:
                 print(line)
-
-                
+                break
