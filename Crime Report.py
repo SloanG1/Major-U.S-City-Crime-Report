@@ -1,5 +1,5 @@
+# Import modules
 import csv
-import plotly.graph_objects as go
 import plotly.express as px
 import pandas as pd
 
@@ -42,8 +42,8 @@ fig = px.scatter_mapbox(C_Report,
                         lat = C_Report['Latitude'],
                         zoom = 3,
                         hover_name = 'city_name',
-                        color = C_Report['rape_sum'],
-                        size = C_Report['total_pop'],
+                        color = C_Report['violent_crime'],
+                        size = C_Report['population'],
                         animation_frame = C_Report['year'],
                         width = 1200,
                         height = 900,

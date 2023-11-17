@@ -1,4 +1,4 @@
-"ORI","year","city_name","total_pop","homes_sum","rape_sum","rob_sum","agg_ass_sum","violent_crime","months_reported","violent_per_100k","homes_per_100k","rape_per_100k","rob_per_100k","agg_ass_per_100k","source","url"
+"ORI","year","city_name","population","homes_sum","rape_sum","rob_sum","agg_ass_sum","violent_crime","months_reported","violent_per_100k","homes_per_100k","rape_per_100k","rob_per_100k","agg_ass_per_100k","source","url"
 "NM00101",1975,"Albuquerque",286238,30,181,819,1353,2383,12,832.523983538174,10.4807887142867,63.2340919095298,286.125531900027,472.683571014331,NA,NA
 "TX22001",1975,"Arlington",112478,5,28,113,132,278,12,247.159444513594,4.44531375024449,24.8937570013692,100.464090755526,117.356283006455,NA,NA
 "GAAPD00",1975,"Atlanta",490584,185,443,3887,3518,8033,12,1637.43619848996,37.7101576896108,90.3005397648517,792.320988862254,717.104512173247,NA,NA
