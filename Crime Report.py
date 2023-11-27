@@ -37,20 +37,19 @@ with open('ucr_crime_1975_2015.csv', 'r') as Crime:
 
 C_Report = pd.read_csv('Crime Report.csv')
 
-fig = px.scatter_mapbox(C_Report,
-                        lon = C_Report['Longitude'],
-                        lat = C_Report['Latitude'],
-                        zoom = 3,
-                        hover_name = 'city_name',
-                        color = C_Report['violent_crime'],
-                        size = C_Report['population'],
-                        animation_frame = C_Report['year'],
-                        width = 1200,
-                        height = 900,
-                        title = 'Crime in Major US Cities'
-                        )
-fig.update_layout(mapbox_style="open-street-map")
+fig = px.scatter_3d(C_Report,
+                    x = C_Report['violent_crime'],
+                    y = C_Report['population'],
+                    z = C_Report['year'],
+                    hover_name = 'city_name',
+                    color = C_Report['population'],
+                    size = C_Report['population'],
+                    #animation_frame = C_Report['year'],
+                    animation_group = C_Report['year'],
+                    width = 1200,
+                    height = 900,
+                    title = 'Crime in Major US Cities'
+                )
 
 fig.show()
-
 
