@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="959a150a-bd37-45ab-b949-b384283b5fca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Crime Report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Crime Report.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucr_crime_1975_2015.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ucr_crime_1975_2015.csv" afterDir="false" />
+    </list>
+=======
     <list default="true" id="959a150a-bd37-45ab-b949-b384283b5fca" name="Changes" comment="" />
+>>>>>>> 83c2b43f552086370642ebee551084fc0a9e56fc
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
